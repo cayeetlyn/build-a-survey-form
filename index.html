@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <h1 id="title">About You</h1>
+  <p id="description">Tell me a bit about yourself below.</p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label">Full Name: <input id="name" type="text" placeholder="Full Name" required /></label>
+    <label id="email-label">Email: <input id="email" type="email" placeholder="email@domain.com" required /></label>
+    <label id="number-label">Age (years): <input id="number" type="number" min="13" max="120" placeholder="20" /></label>
+  </fieldset>
+    <label>What was your favorite subject in school?<select id="dropdown">
+      <option>(select one)</option>
+      <option>Science</option>
+      <option>Math</option>
+      <option>English</option>
+      <option>Art</option>
+      <option>Music</option>
+      <option>Physical Education</option>
+      <option>History</option>
+      <option>Other</option>
+    </select>
+    </label>
+    <fieldset>
+    <label>Which is your favorite type of pet?
+    <label><input type="radio" name="pet" value="0" class="inline" /> Dog</label>
+    <label><input type="radio" name="pet" value="1" class="inline" /> Cat</label>
+    <label><input type="radio" name="pet" value="2" class="inline" /> Bird</label>
+    <label><input type="radio" name="pet" value="3" class="inline" /> Guinea Pig</label>
+    <label><input type="radio" name="pet" value="4" class="inline" /> Reptile</label>
+    <label><input type="radio" name="pet" value="5" class="inline" /> Other</label>
+    </label>
+    </fieldset>
+    <fieldset>
+      <label>Which of these colors do you like?</label>
+    <label><input type="checkbox" value="0" class="inline" /> Red</label>
+    <label><input type="checkbox" value="1" class="inline" /> Orange</label>
+    <label><input type="checkbox" value="2" class="inline" /> Yellow</label>
+    <label><input type="checkbox" value="3" class="inline" /> Green</label>
+    <label><input type="checkbox" value="4" class="inline" /> Blue</label>
+    <label><input type="checkbox" value="5" class="inline" /> Pink</label>
+    <label><input type="checkbox" value="6" class="inline" /> Purple</label>
+    <label><input type="checkbox" value="7" class="inline" /> Black</label>
+    </fieldset>
+    <fieldset>
+      <label>Additional info: </label>
+    <textarea placeholder="Additional information goes here..."></textarea>
+    </fieldset>
+    <input type="submit" id="submit" value="Submit" />
+  </form>
+</html>
